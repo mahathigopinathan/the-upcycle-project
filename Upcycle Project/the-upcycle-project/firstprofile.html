@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+    <title>Home</title>
+
+    <head>
+        <link rel="stylesheet" href="hackathon.css">
+    </head>
+    <div class="headerFirstProfile">
+    </div>
+    <body>
+
+        <nav>
+            <div class="nav">
+                <ul>
+                    <!-- centered -->
+                    <div class="nav-centered">
+                        <li><a href="hackathon.html">HOME</a></li>
+                        <li><a href="firstprofile.html">PROFILE</a></li>
+                        <li><a href="leaderboard.html">LEADERBOARD</a></li>
+                        <li><a href="discover.html">DISCOVER</a></li>
+                    </div>
+        <!-- right -->
+                    <div class="nav-right">
+                        <li><a href="login.html">LOGIN</a></li>
+                        <li><a href="register.html">REGISTER</a></li>
+                    </div>
+                </ul>
+            <div class = "nav">
+
+    <p>
+          
+    </p>
+    <body style="background: rgb(194, 197, 255)"> 
+    <h1> 
+        <center>
+            <br>
+            
+            <td>
+
+            <p>
+                If you logged in, click "I logged in" to access your profile! If not, click "I'm NOT logged in" to log in to your account.
+            </p>
+                <script>
+                    function showProfile() {
+                        window.location.href="profile.html"
+                        start.disabled = true
+                        reload.disabled = true
+                    }
+
+                    function btn2Function() {
+                        window.location.href="login.html"
+                    }
+                
+                    function btnFunction() {
+                        document.getElementById("vprofile").disabled = false
+                    }
+                </script>
+                
+                <div id="profile" class="box">
+                    <div id="notloggedbtn">
+                        <button onclick="btn2Function();">I'm NOT logged in!</button>
+                    </div>
+                    <br>
+                    <div id="lockbtn">
+                        <button onclick="btnFunction();">I logged in!</button>
+                      </div>
+                      <br>
+                    View your profile <button id="vprofile" onclick="showProfile()" disabled>here</button>
+                  </div>
+                
+
+
+
+
+
+
+
+                <!--<form>
+                    You may view your profile <button id="button2" formaction="profile.html" disabled>here</button>
+                </form>
+                <script>
+                    function unlockButton() {
+                        document.getElementById("button2").disabled = false;
+                    }
+                </script>-->
+            <!--You may view your profile <button id="button" onclick="window.location.href='profile.html';">here</button>-->
+                <!--You may view your profile <a href="profile.html">
+                     here.</a>-->
+
+        </center>
+    </h1>
+
+
+
+    
+
+</html>

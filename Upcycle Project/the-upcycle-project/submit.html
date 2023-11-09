@@ -1,0 +1,80 @@
+<!-- PAGE WHERE USERS CAN SUBMIT THEIR PROJECTS -->
+<!DOCTYPE html>
+<html>
+    <title>New Project</title>
+    <head>
+        <link rel="stylesheet" href="hackathon.css">
+    </head>
+    <div class="headerSubmit">
+        <h1>SUBMIT NEW PROJECT</h1>
+        <body style="background: rgb(255, 222, 248)"> 
+    </div>
+    <div class="nav">
+        <ul>
+        <!-- centered -->
+            <div class="nav-centered">
+                <li><a href="hackathon.html">HOME</a></li>
+                <li><a href="firstprofile.html">PROFILE</a></li>
+                <li><a href="leaderboard.html">LEADERBOARD</a></li>
+                <li><a href="discover.html">DISCOVER</a></li>
+            </div>
+        <!-- right -->
+            <div class="nav-right">
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+            </div>
+        </ul>
+    </div>
+    <br>
+    
+    <body>
+        <center>
+        <form action = "submissions.html" method="GET" enctype="multipart/form-data">
+            <div>
+                <label>Title</label>
+                <input type="text" name="title" required>
+            </div>
+            <br>
+            <div>
+                <label>Before Picture</label>
+                <input id="file" type="file" name="before_pic" required>
+            </div>
+            <br>
+            <div>
+                <label>After Picture</label>
+                <input id="file" type = "file" name="after_pic" required>
+            </div>
+            <br>
+            <div>
+                <label>Description</label>
+                <textarea id="description" name="description" required></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Type of Clothing</label>
+                <select name="type" id="type">
+                    <option value="Top">Top</option>
+                    <option value="Pants">Pants</option>
+                    <option value="Skirt/Short">Skirt/Short</option>
+                    <option value="Jacket">Jacket</option>
+                    <option value="Shoes">Shoes</option>
+                    <option value="Accessory">Accessory</option>
+                    <option value ="Decor">Decor</option>
+                </select>
+            </div>
+            <br>
+            <!-- <button type = "submit" class="submitProject">Submit</button> -->
+            <td>
+                <!-- <a id = "submit" href="newprojectthanks.html"> -->
+                <a id="submit" href="newprojectthanks.html">SUBMIT</a> 
+                    <!-- <button class="btn btn-danger btn-lg">SUBMIT</button> -->
+                </a>
+                
+            </td>
+
+
+        </form>
+    </center>
+    </body>
+
+</html>

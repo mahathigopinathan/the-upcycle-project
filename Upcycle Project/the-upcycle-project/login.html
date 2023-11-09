@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="hackathon.css">
+    <div class="nav">
+        <ul>
+        <!-- centered -->
+            <div class="nav-centered">
+                <li><a href="hackathon.html">HOME</a></li>
+                <li><a href="firstprofile.html">PROFILE</a></li>
+                <li><a href="leaderboard.html">LEADERBOARD</a></li>
+                <li><a href="discover.html">DISCOVER</a></li>
+            </div>
+        <!-- right -->
+            <div class="nav-right">
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+            </div>
+        </ul>
+    </div>
+    <br>
+    <br>
+        <title>Login Page</title>
+    <body style="background: rgb(194, 197, 255)"> 
+
+        <div class="container">
+
+            <form id="login">
+        
+                <div class="header">
+                    <br>
+                    <h3>LOGIN</h3>
+                    <br>
+                    <p>Login to view your profile!</p>
+                    
+                </div>
+                
+                <div class="log"></div>
+        <div class="inputs">
+            <br>
+            <input type="user" placeholder="Enter your username..." autofocus required/>
+            <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Enter your password">
+            <td>
+               <br> 
+               <!-- <a class="btn" href="">Link</a> -->
+                <!-- <a id="submit" href="profile.html">LOGIN</a> -->
+                    <!--<form>
+                        <button id="button1" formaction="firstprofile.html" onclick="unlockButton()">LOGIN</button>
+                    </form>
+                    <script>
+                        function unlockButton() {
+                            document.getElementById("button2").disabled = false;
+                        }
+                    </script>-->
+		
+
+  
+
+   <!--<input type="button" id="button1" value="Task 1" 
+            onclick="unlockButton()" />
+            <input type="button" id="button2" value="Task 2" disabled />
+                /*function unlockButton() {
+                    document.getElementById("button2").disabled = false;
+                }*/
+            </script>-->
+
+<script>
+    
+</script>
+
+                    <!-- <button type = "submit" class="submitProject">LOGIN
+                        <a>
+                            <script>
+                                <input type="button" onclick="location.href='profile.html';"></input>
+                            </script>
+                        </a>
+                    </button> -->
+                     <!-- <a id="submit" href="profile.html">LOGIN</a> -->
+            </td>
+        </div>
+<!-- <head>
+    <br>
+    <br>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login_page.css">
+  <script defer src="login_page.js"></script>
+</head> 
+
+<body>
+  <main id="main-holder">
+    <h1 id="login-header">Login</h1>
+    
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+
+    <button type="button" onclick="logIn()">LOGIN</button>-->
+<!--<form>
+    <button id="button1" formaction="firstprofile.html">LOGIN</button>
+</form>-->
+
+<button class="btn1">LOGIN</button> 
+<button class="btn2" formaction="firstprofile.html">Visit Your Profile</button> 
+
+<script>
+    document.querySelector('.btn2').style.display = 'none'; 
+    document.querySelector('.btn1').addEventListener('click', showBtn); 
+
+function showBtn(e) { 
+    document.querySelector('.btn2').style.display = 'block';
+    e.preventDefault(); 
+    document.getElementById("Button")
+} 
+</script>
+
+    <script>
+    let username = 'leah';
+    let password = 'leahspassword'
+
+    function logIn() {
+        if (username != "leah" && password != "leahspassword") {
+        alert('Invalid username and password. Try again.');
+        }
+        else {
+        window.location = "profile.html";
+        }
+    }
+    </script>
+  
+  </main>
+</body>
+       <!-- <div class="login">
+            <h3>Login Here</h3>
+
+            <form action="login.php" method="post">
+
+                    <table>
+                        <tr>
+                            <td>Username:</td>
+                            <td>
+                                <input type="text" name="user">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Password:</td>
+                            <td>
+                                <input type="password" name="user_pass"
+                                >
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="submit" name="submit" 
+                                value='Login'>
+                            </td>-->
+
+                            <td>
+                                <br>
+                                Not a member?<a href="register.html">
+                                    Register</a>
+                                
+                            </td>
+
+                        </tr>
+
+
+
+                    </table>
+
+            
+
+            </form>
+        </div>
+        </center>
+    </body>
+</html>
+
+
+
